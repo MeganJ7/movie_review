@@ -1,4 +1,6 @@
 Rails.application.configure do
+  Paperclip.options[:command_path] = "/usr/local/bin/"
+
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
@@ -40,4 +42,7 @@ Rails.application.configure do
   # config.action_view.raise_on_missing_translations = true
   # Needed for devise
    config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
-end
+   # Needed for paperclip
+   # Paperclip.options[:command_path] = 'C:\Program Files (x86)\GnuWin32\bin'
+
+ end
