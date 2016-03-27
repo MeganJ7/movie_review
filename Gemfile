@@ -18,3 +18,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise', '~> 3.5', '>= 3.5.6'
 gem 'paperclip', '~> 4.2.1'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
