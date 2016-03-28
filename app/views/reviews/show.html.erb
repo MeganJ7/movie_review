@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Rating:</strong>
+  <%= @reivew.rating %>
+</p>
+
+<p>
+  <strong>Comment:</strong>
+  <%= @reivew.comment %>
+</p>
+
+<%= link_to 'Edit', edit_reivew_path(@reivew) %> |
+<%= link_to 'Back', reivews_path %>

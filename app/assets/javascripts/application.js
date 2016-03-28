@@ -13,5 +13,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require bootstrap-sprockets
+//= require bootstrap-table
+ //  # Replace below with desired locale if needed
+ //= require locale/bootstrap-table-ru-RU
 //= require turbolinks
 //= require_tree .

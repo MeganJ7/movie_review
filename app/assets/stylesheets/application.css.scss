@@ -13,9 +13,14 @@
  *= require_tree .
  *= require_self
  */
+ /*
+ *= require bootstrap-table
+ */
+
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "bootstrap-table";
 
 body {
 	background: #AA4847;
@@ -27,7 +32,5 @@ body {
 .reviews {
 	padding: 15px 0;
 	border-bottom: 1px solid #EAEAEA;
-	.star-rating {
-		padding-bottom: 8px;
-	}
+	
 }

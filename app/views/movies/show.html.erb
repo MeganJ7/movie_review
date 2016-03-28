@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-md-4">
         <%= image_tag @movie.image.url(:medium) %>
-       
+        
         <div class="table-responsive">
           <table class="table">
             <tbody>
@@ -29,32 +29,10 @@
               </tr>
             </tbody>
           </table>
-        </div>
+          </div>
       </div>
       </div>
-    </div>
-  </div>
-<%= image_tag @movie.image.url(:medium) %>
-        <p>
-        <strong>Title:</strong>
-        <%= @movie.title %>
-        </p>
-        <p>
-          <strong>Description:</strong>
-          <%= @movie.description %>
-        </p>
-            <p>
-              <strong>Movie length:</strong>
-              <%= @movie.movie_length %>
-            </p>
-            <p>
-             <strong>Director:</strong>
-            <%= @movie.director %>  
-            </p>
-             
-            <p>
-            <strong>Rating:</strong>
-            <%= @movie.rating %>        
-            </p>     
-link_to 'Edit', edit_movie_path(@movie) %> |
+      </div>
+      </div>      
+<%= link_to 'Edit', edit_movie_path(@movie) %> |
 <%= link_to 'Back', movies_path %>
