@@ -43,45 +43,4 @@ class ReviewsController < ApplicationController
     def review_params
       params.require(:review).permit(:rating, :comment)
     end
-end# class ReivewsController < ApplicationController
-#   before_action :set_review, only: [:show, :edit, :update, :destroy]
-#   def index
-#     @reviews = Review.all
-#   end
-
-#   def show
-#   end
-
-#   def new
-#     @review = Reivew.new
-#   end
-
-#   def edit
-#   end
-
-#    def create
-#     @reivew = Reivew.new(reivew_params)
-#       if @reivew.save
-#          redirect_to @reivew
-  
-#         else
-#         render "new" 
-#       end
-#     end
-#   end
-
-#   def destroy
-#     @reivew.destroy
-    
-#     end
-#   end
-
-#   private
-#       def set_reivew
-#       @reivew = Reivew.find(params[:id])
-#     end
-
-#     def reivew_params
-#       params.require(:reivew).permit(:rating, :comment)
-#     end
-# end
+end
